@@ -148,13 +148,3 @@ python run_worker.py --task "List all vendors registered in the internal system"
 
 ---
 
-## Technical Design & Interview Q&A
-
-### 1. Why build your own ReAct loop instead of using LangChain or CrewAI?
-> **Answer:** Frameworks like LangChain introduce hundreds of indirect abstraction layers, obscure prompt chains, and make debugging production failures nearly impossible. Building our own lightweight loop means we control the exact token context, state pruning, tool invocation schemas, and failure recovery handlers. We can inspect, debug, and explain every single line of code.
-
-### 2. Why is independent verification necessary if the API returned 201 Created?
-> **Answer:** A `201 Created` status only proves that the database accepted a valid JSON payload. It does **not** guarantee that the extracted values matched what was on the original PDF or invoice. Performing a fresh, independent `GET /invoices/{id}` call and matching every field against source extracted facts eliminates LLM hallucinations of task completion.
-
-### 3. How does the agent self-correct without human intervention?
-> **Answer:** When an invalid date format (such as `"November 25, 2026"`) is submitted, the API returns a structured HTTP `422 Unprocessable Entity` containing `detail[0].loc: ["body", "due_date"]` and `detail[0].msg: "due_date must strictly be formatted as YYYY-MM-DD"`. The agent observes this machine-readable feedback, normalizes the extracted value into ISO 8601 (`2026-11-25`), and retries the request.
