@@ -1,0 +1,24 @@
+============================================================
+INVOICE - ACME CLOUD SOLUTIONS
+============================================================
+Invoice Number: ACS-2026-9810
+Invoice Date:   2026-10-01
+Due Date:       2026-11-15
+Vendor:         Acme Cloud Solutions
+Billing Contact: billing@acmecloud.example.com
+
+Bill To:
+Apex Enterprise Global Corp
+Accounts Payable Dept
+
+Line Items:
+1. Enterprise Cloud Infrastructure Compute (October 2026) : $11,500.00
+2. Dedicated Kubernetes Cluster Management                : $ 2,750.00
+------------------------------------------------------------
+Subtotal:                                                   $14,250.00
+Tax (0%):                                                   $     0.00
+TOTAL DUE (USD):                                            $14,250.00
+------------------------------------------------------------
+Payment Terms: Net 45
+Please remit payment electronically prior to due date.
+============================================================

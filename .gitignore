@@ -1,0 +1,86 @@
+# ──────────────────────────────────────────────
+# Autonomous AI Task Worker — .gitignore
+# ──────────────────────────────────────────────
+
+# ── Environment & Secrets ─────────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual Environments ──────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Database Files ────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+mock_erp.db
+
+# ── Logs & Audit Trails ───────────────────────
+logs/
+*.jsonl
+*.log
+
+# ── Test & Coverage ───────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ── IDE / Editor ──────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ── Jupyter Notebooks ─────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Type Checkers ─────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# ── Distribution / Packaging ──────────────────
+MANIFEST
+*.tar.gz
+*.zip
+*.whl
+
+# ── Docker (kept for reference, not used) ─────
+docker-compose.override.yml
+
+# ── Misc ──────────────────────────────────────
+*.bak
+*.swp
+*.tmp
+.cache/

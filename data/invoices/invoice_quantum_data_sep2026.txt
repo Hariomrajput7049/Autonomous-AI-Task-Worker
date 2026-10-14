@@ -1,0 +1,19 @@
+############################################################
+QUANTUM DATA LABS LLC - INVOICE
+############################################################
+Invoice Ref : QDL-AI-2026-004
+Date Issued : 2026-09-30
+Due Date    : 2026-10-31
+Vendor      : Quantum Data Labs
+
+Client: Apex Enterprise Global Corp
+
+Description:
+- High-Performance GPU Cluster Compute Reservation (H100 Node x 8)
+- Fine-Tuning Infrastructure and Dedicated Pipeline Support
+
+Total Amount: $78,500.00 USD
+Currency: USD
+
+NOTE: Subject to Enterprise Corporate Finance review.
+############################################################

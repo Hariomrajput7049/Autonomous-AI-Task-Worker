@@ -1,0 +1,17 @@
+------------------------------------------------------------
+NEXUS LOGISTICS INC. - OFFICIAL FREIGHT INVOICE
+------------------------------------------------------------
+Tracking Code: NL-FR-44219
+Invoice Date : October 10, 2026
+Payment Due  : November 25, 2026
+Vendor Name  : Nexus Logistics Inc
+
+Client: Apex Enterprise Global Corp
+
+Services Rendered:
+* Cross-border freight shipping & container logistics
+* Port handling fees & warehousing
+
+Total Amount Due: $8,400.00 USD
+Payment Instructions: Wire transfer to Nexus Logistics Corporate Treasury.
+------------------------------------------------------------

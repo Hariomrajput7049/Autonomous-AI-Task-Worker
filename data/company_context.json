@@ -1,0 +1,23 @@
+{
+  "company_name": "Apex Enterprise Global Corp",
+  "currency_default": "USD",
+  "accounts_payable_policy": {
+    "date_format_required": "YYYY-MM-DD",
+    "duplicate_prevention": "Must query existing invoices for vendor before creating a new entry to prevent duplicate 409 errors.",
+    "human_approval_threshold": 50000.00,
+    "approval_policy_statement": "Any invoice with total amount strictly greater than $50,000.00 requires explicit human approval before submitting to the system.",
+    "destructive_actions_policy": "Any PATCH or DELETE operation on existing invoice records requires explicit human approval.",
+    "supported_vendors": [
+      "Acme Cloud Solutions",
+      "Nexus Logistics Inc",
+      "Apex Office Supplies",
+      "Quantum Data Labs",
+      "Skyline Telecom"
+    ]
+  },
+  "api_access": {
+    "auth_endpoint": "/auth/login",
+    "token_type": "Bearer",
+    "invoices_endpoint": "/invoices"
+  }
+}

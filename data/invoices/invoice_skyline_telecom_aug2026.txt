@@ -1,0 +1,17 @@
+============================================================
+SKYLINE TELECOM SERVICES - INVOICE
+============================================================
+Invoice ID: SKY-9901
+Vendor: Skyline Telecom
+Account Number: SK-CORP-091
+Issue Date: 2026-08-15
+Due Date: 2026-09-15
+Status Note: OVERDUE
+
+Services:
+- Dedicated Fiber Optic Internet 10Gbps Trunk line: $3,150.00
+- VoIP Corporate Enterprise Trunking (200 seats) : $1,200.00
+------------------------------------------------------------
+Total Payable: $4,350.00 USD
+Payment is Past Due.
+============================================================

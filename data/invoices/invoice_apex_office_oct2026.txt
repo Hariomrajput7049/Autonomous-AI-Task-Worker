@@ -1,0 +1,15 @@
+============================================================
+APEX OFFICE SUPPLIES - INVOICE
+============================================================
+Invoice ID : AOS-8812
+Issue Date : 2026-10-05
+Due Date   : 2026-11-05
+Vendor     : Apex Office Supplies
+
+Items:
+- Ergonomic Chairs (x 10)         : $3,200.00
+- Standing Desks (x 5)            : $2,500.00
+- Printing paper & accessories    : $  350.00
+------------------------------------------------------------
+Total Amount Due: $6,050.00
+============================================================
